@@ -1,4 +1,4 @@
-version = 1.75.180
+version = 1.78.102
 
 echo "This will install the Brave Browser of Version: $version in this machine."
 
