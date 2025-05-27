@@ -5,8 +5,17 @@ Last Updated:
 26 May 2025
 Version: 1.78.102
 
+Currently Checked OS:
+    * Ubuntu 24.04
+    * Xubuntu 24.04
+
+```
+zip -r brave_browser_v1.3.0_1.78.102.zip . -x ".git*"
+```
+
 
 This is a way to install the brave browser in offline.
+
 
 
 ```
@@ -20,9 +29,6 @@ sudo apt update
 After This i need to downlaod the brave browser packages.
 
 
-
-
-
 How i download this packages Online:
 
 
@@ -30,6 +36,14 @@ How i download this packages Online:
     apt-get download brave-keyring
 
 
+# How the zip is made
+
+Example code to make release zip,
+
+zip -r brave_browser_v1.0.0_1.99.99.zip . -x ".git*"
+[my_version] + [application_version]
 
 
-I will download the release and then i will run the `./installation_script.sh`
+# How to use this
+
+I will download the release and then i will run the `./installation_script_brave_browser.sh`

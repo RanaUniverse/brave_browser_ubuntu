@@ -1,3 +1,6 @@
 # i need to place the zip file here.
 
+# This is because the main brave deb file is bigger than 100 mb
 brave-browser_*.deb
+
+brave_browser_*.zip
