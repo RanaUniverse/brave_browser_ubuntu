@@ -4,7 +4,7 @@
 
 
 
-VERSION="v1.0.0"
+VERSION="v2.0.0_brave_1.79.119"
 
 repo_name=$(basename "$(pwd)")
 
