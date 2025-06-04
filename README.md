@@ -38,11 +38,7 @@ How i download this packages Online:
 
 # How the zip is made
 
-Example code to make release zip,
-
-zip -r brave_browser_v1.0.0_1.99.99.zip . -x ".git*"
-[my_version] + [application_version]
-
+I will use `making_release_zip.sh`, to make the zip for release.
 
 # How to use this
 
