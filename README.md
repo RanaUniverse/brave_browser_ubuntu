@@ -2,8 +2,8 @@ This is for install the brave browser in ubuntu based, this will help to install
 
 
 Last Updated:
-26 May 2025
-Version: 1.78.102
+10 July 2025
+Version: 1.80.120
 
 Currently Checked OS:
     * Ubuntu 24.04
