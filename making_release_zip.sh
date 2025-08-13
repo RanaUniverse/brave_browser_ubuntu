@@ -1,13 +1,44 @@
 
 # This zip file will be in the top level folder so in extraction time i need to careful
-# unzip brave_browser_ubuntu_v1.0.0.zip -d folder_name
+# unzip brave_browser_ubuntu_v1.0.0_brave_version.zip -d folder_name
 
 
+# Remember, to make the zip i need to change the below two verion number and run this script to get the zip and use it in the release in my repo.
 
-VERSION="v2.1.0_brave_1.80.120"
+My_VERSION="v1.0.0"
+Brave_VERSION="1.99.999"
 
 repo_name=$(basename "$(pwd)")
+zip_name="${repo_name}_${My_VERSION}_brave_${Brave_VERSION}.zip"
 
-zip -r "${repo_name}_$VERSION.zip" . -x "*.git*"
+# Create the zip file, excluding .git directory and its contents
+zip -r "$zip_name" . -x "*.git*" ".git/*"
 
-echo "This zip file is made for the release of this repo, i.e., $repo_name."
+echo "This zip file is made for the release of this repo ($repo_name), version: $My_VERSION, with Brave version: $Brave_VERSION."
+echo "Created zip: $zip_name"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Below was old
+
+# My_VERSION="v1.0.0"
+# Brave_VERSION="1.81.131"
+
+# repo_name=$(basename "$(pwd)")
+
+# zip -r "${repo_name}_$VERSION.zip" . -x "*.git*"
+
+# echo "This zip file is made for the release of this repo, i.e., $repo_name."
+
+
