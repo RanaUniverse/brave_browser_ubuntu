@@ -6,9 +6,14 @@
 This repo is made to Install the **official Brave Browser** offline on Ubuntu-based systems using a pre-packaged archive.
 
 Example of a Version:
-> **Version:** `1.80.120`  
-> **Offline Package Version:** `v1.3.0_1.78.102`  
-> **Last Updated:** `10 July 2025`
+> **Version:** `139.1.81.131`  
+> **Last Updated:** `13 August 2025`
+How i Checked The version below:
+```
+rana@rana-Inspiron-3442:~/RanaUniverse/brave_browser_ubuntu$ brave-browser --version
+Brave Browser 139.1.81.131 
+```
+
 
 ---
 
