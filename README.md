@@ -5,11 +5,6 @@
 
 This repo is made to Install the **official Brave Browser** offline on Ubuntu-based systems using a pre-packaged archive.
 
-E
-```
-rana@rana-Inspiron-3442:~/RanaUniverse/brave_browser_ubuntu$ brave-browser --version
-Brave Browser 139.1.81.131 
-```
 
 
 ---
@@ -17,7 +12,7 @@ Brave Browser 139.1.81.131
 ## ✅ Supported Operating Systems
 - **Ubuntu 24.04 LTS**
 - **Xubuntu 24.04 LTS**
-- Others Ubuntu Based os maybe works, but i didn't check those.
+- Others Ubuntu Based os should works, but i didn't check those.
 
 ---
 
@@ -43,6 +38,12 @@ After This i need to downlaod the brave browser packages.
 
 # Actual Steps to Download the .Deb Files.
 
+First from the linux official website i need to get the official download link of brave-browser by running the command, 
+```
+curl -fsS https://dl.brave.com/install.sh | sh
+```
+
+
 After i follow the upper steps to add those in my system's repo, then i need to follow the below things.
 
     apt download brave-browser
@@ -54,11 +55,6 @@ Then i keep the files in the repo's location.
 # How the zip is made
 
 I will use `making_release_zip.sh`, to make the zip for release.
-
-
-# How to use this
-
-I will download the release and then i will run the `./installation_script_brave_browser.sh`
 
 
 # How to install 
