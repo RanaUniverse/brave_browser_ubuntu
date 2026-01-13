@@ -5,8 +5,8 @@
 
 # Remember, to make the zip i need to change the below two verion number and run this script to get the zip and use it in the release in my repo.
 
-My_VERSION="v1.0.0"
-Brave_VERSION="1.99.999"
+My_VERSION="v3.1.0"
+Brave_VERSION="1.85.120"
 
 repo_name=$(basename "$(pwd)")
 zip_name="${repo_name}_${My_VERSION}_brave_${Brave_VERSION}.zip"
@@ -16,29 +16,4 @@ zip -r "$zip_name" . -x "*.git*" ".git/*"
 
 echo "This zip file is made for the release of this repo ($repo_name), version: $My_VERSION, with Brave version: $Brave_VERSION."
 echo "Created zip: $zip_name"
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# Below was old
-
-# My_VERSION="v1.0.0"
-# Brave_VERSION="1.81.131"
-
-# repo_name=$(basename "$(pwd)")
-
-# zip -r "${repo_name}_$VERSION.zip" . -x "*.git*"
-
-# echo "This zip file is made for the release of this repo, i.e., $repo_name."
-
 
